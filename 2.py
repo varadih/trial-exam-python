@@ -14,4 +14,4 @@ def num_of_letter(file_name):
     except FileNotFoundError:
         return 0
 
-print(num_of_letter(how_many_a.txt))
+print(num_of_letter("how_many_a.txt"))
