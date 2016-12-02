@@ -5,3 +5,5 @@ def greeter(name):
     return 'Hello, ' + name + '!'
   else:
     return 'Hello, Mr Nobody!'
+
+print(greeter('Mammut'))
