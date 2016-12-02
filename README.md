@@ -29,6 +29,10 @@ The application is accepted if:
 
 ### How can you get a random number in python? [2p]
 #### Your answer:
+# 1. Random function should be imported in the beginning of the document, e.g. : from random import randint (means that a function imported which can choose integer randomly)
+# 2. When random number is need to be used within a method, a two number should be inserted to define the start and end point of the random range. e.g. : randint(0,300) (means that it will choose an integer between 0 and 300 randomly)
 
 ### What does M stand for in MVC? [2p]
 #### Your answer:
+# It's the 'Model' from the Model-View-Controller design pattern.
+# The model responds to requests for information about its state (usually from the view), and responds to instructions to change state (usually from the controller).
